@@ -1,24 +1,3 @@
-# README
+# Appointment Api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a challenge that I took on to make appointment api validations. This program checks to see if the day and time that the user gives is not in the past. There's another validation to check whether there is appointments already set for the time that the user gives, so appointments dont overlap each other. 
