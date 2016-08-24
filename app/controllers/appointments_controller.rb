@@ -12,7 +12,7 @@ class AppointmentsController < ApplicationController
   def create
     @appointment = Appointment.new(appointment_params)
 
-
+    # if @appointment.save
     if @appointment.valid_check && @appointment.save
       render json: @appointment, status: 201, location: @appointment
     else
